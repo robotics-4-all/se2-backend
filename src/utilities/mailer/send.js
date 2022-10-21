@@ -8,7 +8,7 @@ module.exports = (to, subject, email) => {
    * @description Is used to send an email to a user
    */
   const msg = {
-    from: process.env.SERVER_EMAIL,
+    from: "karanikio@auth.gr",
     to,
     subject,
     html: email
